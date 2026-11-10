@@ -1,0 +1,39 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "ecb",
+    "rateLimits": null,
+    "rights": {
+        "commercial": "allowed",
+        "openSourceRequired": false,
+        "caching": {
+            "permission": "allowed",
+            "maxTtl": null
+        },
+        "storage": "allowed",
+        "redistribution": "allowed",
+        "attribution": {
+            "required": true,
+            "text": "Source: ECB",
+            "url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+            "where": [
+                "source"
+            ]
+        },
+        "licence": "ECB copyright: free use, the ECB cited as the source"
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+        "policy": "https://data.ecb.europa.eu/help/api/overview",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": null,
+        "notes": "Read on 2026-11-10. The ECB's copyright: users \"may make free use of the information obtained directly from\" the website, which \"must appear accurately and the ECB must be cited as the source\"; information sold inside documents must be said to be free of charge on the ECB's website, before payment and at each access; information modified by the user (seasonal adjustment, growth rates) must say so; ECB Working and Occasional Papers excepted. The Data Portal's API pages (overview, data, status codes) state no rate limit nor quota and no key: rateLimits unknown. Status codes: 200, 304 (If-Modified-Since), 400, 404 no results, 406, 500, 501, 503. Seen on 2026-11-10: the gateway answering 504 now and then (an UnavailableException), the dataflow list answering only with detail=allstubs."
+    }
+}
