@@ -13,6 +13,14 @@ $ecb->series('FM/B.U2.EUR.4F.KR.MRR_FR.LEV')->latest()->value; // the main refin
 No framework needed: the package requires `omnisense/omnistate`, `omnisense/contracts`,
 `symfony/http-client` and PHP's SimpleXML (the dataflow list).
 
+## Install
+
+```sh
+composer require omnistate/ecb
+```
+
+It brings the family's core, `omnisense/omnistate`, and `omnisense/contracts` with it. No account and no key: the ECB's web service is open ([`policy.json`](policy.json)).
+
 ## Usage policy
 
 `policy.json`, read on 2026-11-10: no limit stated (unknown), free use with the ECB cited as the
